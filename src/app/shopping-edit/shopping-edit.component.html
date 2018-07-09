@@ -5,7 +5,8 @@
         <div class="col-sm-5 form-group">
           <label for="name">Name</label>
             <input
-              #nameInput
+              [(ngModel)]="nameInput"
+              name="x"
               type="text"
               id="name"
               class="form-control">
@@ -13,7 +14,8 @@
         <div class="col-sm-2 form-group">
           <label for="quantity">Quantity</label>
           <input
-            #quantityInput
+            [(ngModel)]="quantityInput"
+            name="y"
             type="number"
             id="quantity"
             class="form-control">
